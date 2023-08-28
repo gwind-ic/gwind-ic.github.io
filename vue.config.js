@@ -1,7 +1,9 @@
 const path = require("path");
 
-vueSrc = "./src";
+const vueSrc = "./src";
+
 module.exports = {
+  publicPath: "./",
   runtimeCompiler: true,
   devServer: {
     disableHostCheck: true,
@@ -28,4 +30,11 @@ module.exports = {
       extensions: [".js", ".vue", ".json"],
     },
   },
+  pages: {
+    index: {
+      entry: "src/main.js",
+      template: "public/index.html",
+      filename: "index.html"
+    }
+  }
 };
