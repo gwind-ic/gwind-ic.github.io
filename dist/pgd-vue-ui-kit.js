@@ -729,22 +729,6 @@ var script$13 = {
   },
 };
 
-script$3C.render = render$3C;
-script$3C.__file = "src/components/Carousel/TripleCarousel.vue";
-
-var script$3C = {
-  name: {
-    type: "k-triple-carousel",
-  },
-  props: {
-    image: {
-      type: String,
-      default:
-        "/assets/images/logo-pegadaian-small.svg",
-     
-  }}
-};
-
 const _hoisted_1$12 = { class: "p-5" };
 const _hoisted_2$Y = { class: "pgd-carousel-promo" };
 const _hoisted_3$O = /*#__PURE__*/vue.createElementVNode("div", { class: "promo-left" }, [
@@ -1152,7 +1136,7 @@ function render$_(_ctx, _cache, $props, $setup, $data, $options) {
         _hoisted_3$K
       ], 2 /* CLASS */)
     ]),
-    vue.createCommentVNode(" <div class=\"card-account-green\">\n    <span>Saldo G-Cash</span>\n    <h4>Rp 500.000</h4>\n\n    <p id=\"no-rek-utama\">{{ cardNo }}</p>\n\n    <img\n      src=\"https://dl.dropboxusercontent.com/s/nkv1p594ku3ph8b/logo-bank-bni-white.png\"\n      alt=\"\"\n    />\n  </div> ")
+    vue.createCommentVNode(" <div class=\"card-account-green\">\r\n    <span>Saldo G-Cash</span>\r\n    <h4>Rp 500.000</h4>\r\n\r\n    <p id=\"no-rek-utama\">{{ cardNo }}</p>\r\n\r\n    <img\r\n      src=\"https://dl.dropboxusercontent.com/s/nkv1p594ku3ph8b/logo-bank-bni-white.png\"\r\n      alt=\"\"\r\n    />\r\n  </div> ")
   ], 2112 /* STABLE_FRAGMENT, DEV_ROOT_FRAGMENT */))
 }
 
@@ -1285,7 +1269,7 @@ const _hoisted_8$g = /*#__PURE__*/vue.createElementVNode("img", {
 function render$Y(_ctx, _cache, $props, $setup, $data, $options) {
   return (vue.openBlock(), vue.createElementBlock("section", _hoisted_1$X, [
     vue.createElementVNode("div", _hoisted_2$R, [
-      vue.createCommentVNode(" <a href=\"\" class=\"card-list\">\n        <div class=\"img-overlay\">\n          <img\n            src=\"https://dl.dropboxusercontent.com/s/iqlg9xxgjiz884x/banner-artikel7.png\"\n            alt=\"\"\n          />\n        </div>\n        <div class=\"content-item\">\n          <div class=\"content-item__tag bg-primary\">Inspirasi</div>\n          <h2 class=\"content-item__title\">\n            Cara Jualan Online Selama Bulan Ramadan\n          </h2>\n          <div class=\"content-item__date\">\n            <img\n              src=\"https://dl.dropboxusercontent.com/s/7thjx5cu9ar75k6/clock.svg\"\n              alt=\"\"\n            />\n            <span>16 December 2020</span>\n          </div>\n        </div>\n      </a> "),
+      vue.createCommentVNode(" <a href=\"\" class=\"card-list\">\r\n        <div class=\"img-overlay\">\r\n          <img\r\n            src=\"https://dl.dropboxusercontent.com/s/iqlg9xxgjiz884x/banner-artikel7.png\"\r\n            alt=\"\"\r\n          />\r\n        </div>\r\n        <div class=\"content-item\">\r\n          <div class=\"content-item__tag bg-primary\">Inspirasi</div>\r\n          <h2 class=\"content-item__title\">\r\n            Cara Jualan Online Selama Bulan Ramadan\r\n          </h2>\r\n          <div class=\"content-item__date\">\r\n            <img\r\n              src=\"https://dl.dropboxusercontent.com/s/7thjx5cu9ar75k6/clock.svg\"\r\n              alt=\"\"\r\n            />\r\n            <span>16 December 2020</span>\r\n          </div>\r\n        </div>\r\n      </a> "),
       (vue.openBlock(true), vue.createElementBlock(vue.Fragment, null, vue.renderList($props.items, (item, index) => {
         return (vue.openBlock(), vue.createElementBlock("a", {
           key: index,
@@ -1304,7 +1288,7 @@ function render$Y(_ctx, _cache, $props, $setup, $data, $options) {
         ]))
       }), 128 /* KEYED_FRAGMENT */))
     ]),
-    vue.createCommentVNode(" <div class=\"artikel-category__bottom\">\n      <div class=\"list-artikel\">\n        <div class=\"list-artikel__box\">\n          <a href=\"\" class=\"card-list card-list-lg\">\n            <div class=\"img-overlay\">\n              <img\n                src=\"https://dl.dropboxusercontent.com/s/iqlg9xxgjiz884x/banner-artikel7.png\"\n                alt=\"\"\n              />\n            </div>\n            <div class=\"content-item\">\n              <div class=\"content-item__tag bg-primary\">Inspirasi</div>\n              <h2 class=\"content-item__title\">\n                Cara Jualan Online Selama Bulan Ramadan\n              </h2>\n              <div class=\"content-item__date\">\n                <img\n                  src=\"https://dl.dropboxusercontent.com/s/7thjx5cu9ar75k6/clock.svg\"\n                  alt=\"\"\n                />\n                <span>16 December 2020</span>\n              </div>\n            </div>\n          </a>\n          <a href=\"\" class=\"card-list\">\n            <div class=\"img-overlay\">\n              <img\n                src=\"https://dl.dropboxusercontent.com/s/iqlg9xxgjiz884x/banner-artikel7.png\"\n                alt=\"\"\n              />\n            </div>\n            <div class=\"content-item\">\n              <div class=\"content-item__tag bg-primary\">Inspirasi</div>\n              <h2 class=\"content-item__title\">\n                Cara Jualan Online Selama Bulan Ramadan\n              </h2>\n              <div class=\"content-item__date\">\n                <img\n                  src=\"https://dl.dropboxusercontent.com/s/7thjx5cu9ar75k6/clock.svg\"\n                  alt=\"\"\n                />\n                <span>16 December 2020</span>\n              </div>\n            </div>\n          </a>\n          <a href=\"\" class=\"card-list\">\n            <div class=\"img-overlay\">\n              <img\n                src=\"https://dl.dropboxusercontent.com/s/iqlg9xxgjiz884x/banner-artikel7.png\"\n                alt=\"\"\n              />\n            </div>\n            <div class=\"content-item\">\n              <div class=\"content-item__tag bg-primary\">Inspirasi</div>\n              <h2 class=\"content-item__title\">\n                Cara Jualan Online Selama Bulan Ramadan\n              </h2>\n              <div class=\"content-item__date\">\n                <img\n                  src=\"https://dl.dropboxusercontent.com/s/7thjx5cu9ar75k6/clock.svg\"\n                  alt=\"\"\n                />\n                <span>16 December 2020</span>\n              </div>\n            </div>\n          </a>\n          <a href=\"\" class=\"card-list\">\n            <div class=\"img-overlay\">\n              <img\n                src=\"https://dl.dropboxusercontent.com/s/iqlg9xxgjiz884x/banner-artikel7.png\"\n                alt=\"\"\n              />\n            </div>\n            <div class=\"content-item\">\n              <div class=\"content-item__tag bg-primary\">Inspirasi</div>\n              <h2 class=\"content-item__title\">\n                Cara Jualan Online Selama Bulan Ramadan\n              </h2>\n              <div class=\"content-item__date\">\n                <img\n                  src=\"https://dl.dropboxusercontent.com/s/7thjx5cu9ar75k6/clock.svg\"\n                  alt=\"\"\n                />\n                <span>16 December 2020</span>\n              </div>\n            </div>\n          </a>\n        </div>\n      </div>\n    </div> ")
+    vue.createCommentVNode(" <div class=\"artikel-category__bottom\">\r\n      <div class=\"list-artikel\">\r\n        <div class=\"list-artikel__box\">\r\n          <a href=\"\" class=\"card-list card-list-lg\">\r\n            <div class=\"img-overlay\">\r\n              <img\r\n                src=\"https://dl.dropboxusercontent.com/s/iqlg9xxgjiz884x/banner-artikel7.png\"\r\n                alt=\"\"\r\n              />\r\n            </div>\r\n            <div class=\"content-item\">\r\n              <div class=\"content-item__tag bg-primary\">Inspirasi</div>\r\n              <h2 class=\"content-item__title\">\r\n                Cara Jualan Online Selama Bulan Ramadan\r\n              </h2>\r\n              <div class=\"content-item__date\">\r\n                <img\r\n                  src=\"https://dl.dropboxusercontent.com/s/7thjx5cu9ar75k6/clock.svg\"\r\n                  alt=\"\"\r\n                />\r\n                <span>16 December 2020</span>\r\n              </div>\r\n            </div>\r\n          </a>\r\n          <a href=\"\" class=\"card-list\">\r\n            <div class=\"img-overlay\">\r\n              <img\r\n                src=\"https://dl.dropboxusercontent.com/s/iqlg9xxgjiz884x/banner-artikel7.png\"\r\n                alt=\"\"\r\n              />\r\n            </div>\r\n            <div class=\"content-item\">\r\n              <div class=\"content-item__tag bg-primary\">Inspirasi</div>\r\n              <h2 class=\"content-item__title\">\r\n                Cara Jualan Online Selama Bulan Ramadan\r\n              </h2>\r\n              <div class=\"content-item__date\">\r\n                <img\r\n                  src=\"https://dl.dropboxusercontent.com/s/7thjx5cu9ar75k6/clock.svg\"\r\n                  alt=\"\"\r\n                />\r\n                <span>16 December 2020</span>\r\n              </div>\r\n            </div>\r\n          </a>\r\n          <a href=\"\" class=\"card-list\">\r\n            <div class=\"img-overlay\">\r\n              <img\r\n                src=\"https://dl.dropboxusercontent.com/s/iqlg9xxgjiz884x/banner-artikel7.png\"\r\n                alt=\"\"\r\n              />\r\n            </div>\r\n            <div class=\"content-item\">\r\n              <div class=\"content-item__tag bg-primary\">Inspirasi</div>\r\n              <h2 class=\"content-item__title\">\r\n                Cara Jualan Online Selama Bulan Ramadan\r\n              </h2>\r\n              <div class=\"content-item__date\">\r\n                <img\r\n                  src=\"https://dl.dropboxusercontent.com/s/7thjx5cu9ar75k6/clock.svg\"\r\n                  alt=\"\"\r\n                />\r\n                <span>16 December 2020</span>\r\n              </div>\r\n            </div>\r\n          </a>\r\n          <a href=\"\" class=\"card-list\">\r\n            <div class=\"img-overlay\">\r\n              <img\r\n                src=\"https://dl.dropboxusercontent.com/s/iqlg9xxgjiz884x/banner-artikel7.png\"\r\n                alt=\"\"\r\n              />\r\n            </div>\r\n            <div class=\"content-item\">\r\n              <div class=\"content-item__tag bg-primary\">Inspirasi</div>\r\n              <h2 class=\"content-item__title\">\r\n                Cara Jualan Online Selama Bulan Ramadan\r\n              </h2>\r\n              <div class=\"content-item__date\">\r\n                <img\r\n                  src=\"https://dl.dropboxusercontent.com/s/7thjx5cu9ar75k6/clock.svg\"\r\n                  alt=\"\"\r\n                />\r\n                <span>16 December 2020</span>\r\n              </div>\r\n            </div>\r\n          </a>\r\n        </div>\r\n      </div>\r\n    </div> ")
   ]))
 }
 
@@ -3342,7 +3326,7 @@ function render$G(_ctx, _cache, $props, $setup, $data, $options) {
               }), 128 /* KEYED_FRAGMENT */))
             ])
           ]),
-          vue.createCommentVNode(" <h4>Tautan Cepat</h4>\n          <div class=\"box-map\">\n            <ul>\n              <li><a href=\"#tentangpgd\">Tentang Pegadaian Digital</a></li>\n              <li><a href=\"#promo\">Promo</a></li>\n              <li><a href=\"#pusatbantuan\">Pusat Bantuan</a></li>\n              <li><a href=\"#syaratdanketentuan\">Syarat & Ketentuan</a></li>\n              <li><a href=\"#hubungikami\">Hubungi Kami</a></li>\n            </ul>\n          </div> ")
+          vue.createCommentVNode(" <h4>Tautan Cepat</h4>\r\n          <div class=\"box-map\">\r\n            <ul>\r\n              <li><a href=\"#tentangpgd\">Tentang Pegadaian Digital</a></li>\r\n              <li><a href=\"#promo\">Promo</a></li>\r\n              <li><a href=\"#pusatbantuan\">Pusat Bantuan</a></li>\r\n              <li><a href=\"#syaratdanketentuan\">Syarat & Ketentuan</a></li>\r\n              <li><a href=\"#hubungikami\">Hubungi Kami</a></li>\r\n            </ul>\r\n          </div> ")
         ]),
         _hoisted_6$c,
         vue.createElementVNode("div", _hoisted_7$b, [
@@ -4198,7 +4182,7 @@ function render$v(_ctx, _cache, $props, $setup, $data, $options) {
       }, null, 8 /* PROPS */, _hoisted_1$v),
       vue.createTextVNode(vue.toDisplayString($props.text), 1 /* TEXT */)
     ], 2 /* CLASS */),
-    vue.createCommentVNode(" <div class=\"pgd-status-blue\">\n    <img\n      src=\"https://dl.dropboxusercontent.com/s/8dx7mmeozqodu20/icon-crown.svg\"\n      alt=\"\"\n    />Status\n  </div> ")
+    vue.createCommentVNode(" <div class=\"pgd-status-blue\">\r\n    <img\r\n      src=\"https://dl.dropboxusercontent.com/s/8dx7mmeozqodu20/icon-crown.svg\"\r\n      alt=\"\"\r\n    />Status\r\n  </div> ")
   ], 2112 /* STABLE_FRAGMENT, DEV_ROOT_FRAGMENT */))
 }
 
@@ -4755,22 +4739,6 @@ var script$o = {
       },
     },
   },
-};
-
-script$p4.render = render$p4;
-script$p4.__file = "src/components/Navbar/NavbarMicrosite.vue";
-
-var script$p4 = {
-  name: {
-    type: "k-navbar-microsite",
-  },
-  props: {
-    image: {
-      type: String,
-      default:
-        "/assets/images/logo-pegadaian-small.svg",
-     
-  }}
 };
 
 const _hoisted_1$o = { class: "main-app-bar" };
@@ -5703,7 +5671,7 @@ function render$g(_ctx, _cache, $props, $setup, $data, $options) {
                 class: "align-middle"
               }, vue.toDisplayString(field.label), 1 /* TEXT */))
             }), 128 /* KEYED_FRAGMENT */)),
-            vue.createCommentVNode(" <th class=\"align-middle\">Uang Pinjaman</th>\n            <th class=\"text-right align-middle\" width=\"122px\">\n              Sewa Modal <br />\n              /15 Hari <br />\n            </th>\n            <th class=\"align-middle\" width=\"88px\">Premi</th>\n            <th class=\"text-right align-middle\" width=\"104px\">Administrasi</th>\n          </tr>\n          <tr class=\"rowspan-custom\">\n            <th></th>\n            <th></th>\n            <th class=\"text-right\">TR</th>\n            <th></th>\n            <th></th> ")
+            vue.createCommentVNode(" <th class=\"align-middle\">Uang Pinjaman</th>\r\n            <th class=\"text-right align-middle\" width=\"122px\">\r\n              Sewa Modal <br />\r\n              /15 Hari <br />\r\n            </th>\r\n            <th class=\"align-middle\" width=\"88px\">Premi</th>\r\n            <th class=\"text-right align-middle\" width=\"104px\">Administrasi</th>\r\n          </tr>\r\n          <tr class=\"rowspan-custom\">\r\n            <th></th>\r\n            <th></th>\r\n            <th class=\"text-right\">TR</th>\r\n            <th></th>\r\n            <th></th> ")
           ])
         ]),
         vue.createElementVNode("tbody", null, [
@@ -5714,7 +5682,7 @@ function render$g(_ctx, _cache, $props, $setup, $data, $options) {
               }), 128 /* KEYED_FRAGMENT */))
             ]))
           }), 128 /* KEYED_FRAGMENT */)),
-          vue.createCommentVNode(" <tr>\n            <td class=\"text-center\">B</td>\n            <td>> Rp 500.000 - Rp 1.000.000</td>\n            <td class=\"text-right\">1,2%</td>\n            <td>Rp 1.000</td>\n            <td class=\"text-right black-zero\">Rp 10.000</td>\n          </tr>\n          <tr>\n            <td class=\"text-center\">B</td>\n            <td>> Rp 1.000.000 - Rp 2.500.000</td>\n            <td class=\"text-right\">1,2%</td>\n            <td>Rp 1.000</td>\n            <td class=\"text-right black-zero\">Rp 20.000</td>\n          </tr>\n          <tr>\n            <td class=\"text-center\">B</td>\n            <td>> Rp 2.500.000 - Rp 5.000.000</td>\n            <td class=\"text-right\">1,2%</td>\n            <td>Rp 1.000</td>\n            <td class=\"text-right black-zero\">Rp 35.000</td>\n          </tr>\n          <tr>\n            <td class=\"text-center\">C</td>\n            <td>> Rp 5.000.000 - Rp 10.000.000</td>\n            <td class=\"text-right\">1,2%</td>\n            <td>Rp 1.000</td>\n            <td class=\"text-right black-zero\">Rp 50.000</td>\n          </tr>\n          <tr>\n            <td class=\"text-center\">C</td>\n            <td>> Rp 2.500.000 - Rp 5.000.000</td>\n            <td class=\"text-right\">1,2%</td>\n            <td>Rp 1.000</td>\n            <td class=\"text-right black-zero\">Rp 75.000</td>\n          </tr>\n          <tr>\n            <td class=\"text-center\">C</td>\n            <td>> Rp 15.000.000 - Rp 20.000.000</td>\n            <td class=\"text-right\">1,2%</td>\n            <td>Rp 1.000</td>\n            <td class=\"text-right black-zero\">Rp 100.000</td>\n          </tr>\n          <tr>\n            <td class=\"text-center\">D</td>\n            <td>> Rp 20.000.000</td>\n            <td class=\"text-right\">1,2%</td>\n            <td>Rp 1.000 - Rp 1.500</td>\n            <td class=\"text-right black-zero\">Rp 125.000</td>\n          </tr> ")
+          vue.createCommentVNode(" <tr>\r\n            <td class=\"text-center\">B</td>\r\n            <td>> Rp 500.000 - Rp 1.000.000</td>\r\n            <td class=\"text-right\">1,2%</td>\r\n            <td>Rp 1.000</td>\r\n            <td class=\"text-right black-zero\">Rp 10.000</td>\r\n          </tr>\r\n          <tr>\r\n            <td class=\"text-center\">B</td>\r\n            <td>> Rp 1.000.000 - Rp 2.500.000</td>\r\n            <td class=\"text-right\">1,2%</td>\r\n            <td>Rp 1.000</td>\r\n            <td class=\"text-right black-zero\">Rp 20.000</td>\r\n          </tr>\r\n          <tr>\r\n            <td class=\"text-center\">B</td>\r\n            <td>> Rp 2.500.000 - Rp 5.000.000</td>\r\n            <td class=\"text-right\">1,2%</td>\r\n            <td>Rp 1.000</td>\r\n            <td class=\"text-right black-zero\">Rp 35.000</td>\r\n          </tr>\r\n          <tr>\r\n            <td class=\"text-center\">C</td>\r\n            <td>> Rp 5.000.000 - Rp 10.000.000</td>\r\n            <td class=\"text-right\">1,2%</td>\r\n            <td>Rp 1.000</td>\r\n            <td class=\"text-right black-zero\">Rp 50.000</td>\r\n          </tr>\r\n          <tr>\r\n            <td class=\"text-center\">C</td>\r\n            <td>> Rp 2.500.000 - Rp 5.000.000</td>\r\n            <td class=\"text-right\">1,2%</td>\r\n            <td>Rp 1.000</td>\r\n            <td class=\"text-right black-zero\">Rp 75.000</td>\r\n          </tr>\r\n          <tr>\r\n            <td class=\"text-center\">C</td>\r\n            <td>> Rp 15.000.000 - Rp 20.000.000</td>\r\n            <td class=\"text-right\">1,2%</td>\r\n            <td>Rp 1.000</td>\r\n            <td class=\"text-right black-zero\">Rp 100.000</td>\r\n          </tr>\r\n          <tr>\r\n            <td class=\"text-center\">D</td>\r\n            <td>> Rp 20.000.000</td>\r\n            <td class=\"text-right\">1,2%</td>\r\n            <td>Rp 1.000 - Rp 1.500</td>\r\n            <td class=\"text-right black-zero\">Rp 125.000</td>\r\n          </tr> ")
         ])
       ])
     ])
@@ -5784,7 +5752,7 @@ function render$f(_ctx, _cache, $props, $setup, $data, $options) {
               }), 128 /* KEYED_FRAGMENT */))
             ]))
           }), 128 /* KEYED_FRAGMENT */)),
-          vue.createCommentVNode(" <tr>\n            <td class=\"bg-primary-pgd\">Uang Muka</td>\n            <td>Minimal 15%</td>\n          </tr>\n          <tr>\n            <td class=\"bg-primary-pgd\">Margin/mu'nah pemeliharaan</td>\n            <td>0,92% x nilai taksiran emas per bulan</td>\n          </tr>\n          <tr>\n            <td class=\"bg-primary-pgd\">Administrasi</td>\n            <td>Rp 50.000 per transaksi</td>\n          </tr> ")
+          vue.createCommentVNode(" <tr>\r\n            <td class=\"bg-primary-pgd\">Uang Muka</td>\r\n            <td>Minimal 15%</td>\r\n          </tr>\r\n          <tr>\r\n            <td class=\"bg-primary-pgd\">Margin/mu'nah pemeliharaan</td>\r\n            <td>0,92% x nilai taksiran emas per bulan</td>\r\n          </tr>\r\n          <tr>\r\n            <td class=\"bg-primary-pgd\">Administrasi</td>\r\n            <td>Rp 50.000 per transaksi</td>\r\n          </tr> ")
         ])
       ])
     ])
@@ -6293,7 +6261,7 @@ function render$5(_ctx, _cache, $props, $setup, $data, $options) {
               : vue.createCommentVNode("v-if", true)
           ], 64 /* STABLE_FRAGMENT */))
         }), 128 /* KEYED_FRAGMENT */)),
-        vue.createCommentVNode(" <li><a role=\"button\" tabindex=\"0\" aria-label=\"Page 2\">2</a></li>\n        <li class=\"break-me\"><a role=\"button\" tabindex=\"0\">...</a></li>\n        <li><a role=\"button\" tabindex=\"0\" aria-label=\"Page 4\">4</a></li> "),
+        vue.createCommentVNode(" <li><a role=\"button\" tabindex=\"0\" aria-label=\"Page 2\">2</a></li>\r\n        <li class=\"break-me\"><a role=\"button\" tabindex=\"0\">...</a></li>\r\n        <li><a role=\"button\" tabindex=\"0\" aria-label=\"Page 4\">4</a></li> "),
         vue.createElementVNode("li", _hoisted_12, [
           vue.createElementVNode("a", {
             class: "pagination-navigation",
@@ -6401,7 +6369,7 @@ function render$3(_ctx, _cache, $props, $setup, $data, $options) {
         class: vue.normalizeClass(item.active === true ? 'active' : '')
       }, vue.toDisplayString(item.label), 3 /* TEXT, CLASS */))
     }), 128 /* KEYED_FRAGMENT */)),
-    vue.createCommentVNode(" <li class=\"active\">Detail Jaminan</li>\n    <li>Detail Pinjaman</li>\n    <li>Cabang Pengajuan</li>\n    <li>Waktu Kedatangan</li> ")
+    vue.createCommentVNode(" <li class=\"active\">Detail Jaminan</li>\r\n    <li>Detail Pinjaman</li>\r\n    <li>Cabang Pengajuan</li>\r\n    <li>Waktu Kedatangan</li> ")
   ]))
 }
 
@@ -6615,7 +6583,6 @@ var components = {
   kWidgetContent: script$e,
   kWidgetSaldo: script$d,
   kBannerCarousel: script$13,
-  kTripleCarousel: script$3C,
   kHighlightCarousel: script$12,
   kChart: script$11,
   kChartMeter: script$10,
