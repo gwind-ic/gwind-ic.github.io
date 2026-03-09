@@ -1,0 +1,1 @@
+import{r,f as i}from"./iframe-c4IY6zQp.js";import{c as l}from"./useForwardExpose-Cr5jnkZA.js";function c(){const e=r(),m=i(()=>{var t,n;return["#text","#comment"].includes((t=e.value)==null?void 0:t.$el.nodeName)?(n=e.value)==null?void 0:n.$el.nextElementSibling:l(e)});return{primitiveElement:e,currentElement:m}}export{c as u};

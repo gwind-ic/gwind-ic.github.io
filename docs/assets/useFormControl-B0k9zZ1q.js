@@ -1,0 +1,1 @@
+import{f as t}from"./iframe-c4IY6zQp.js";import{t as e,c as m}from"./useForwardExpose-Cr5jnkZA.js";function s(o){return t(()=>{var r;return e(o)?!!((r=m(o))!=null&&r.closest("form")):!0})}export{s as u};

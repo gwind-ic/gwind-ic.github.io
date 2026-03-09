@@ -1,0 +1,1 @@
+import{i as r}from"./ConfigProvider-C_xfuhRi.js";import{r as n,f as i}from"./iframe-c4IY6zQp.js";function c(t){const e=r({dir:n("ltr")});return i(()=>{var o;return(t==null?void 0:t.value)||((o=e.dir)==null?void 0:o.value)||"ltr"})}export{c as u};
